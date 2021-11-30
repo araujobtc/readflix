@@ -1,0 +1,20 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #080808;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: var(--preto);
+}
+
+
+header div img{
+    max-height: 5rem;
+}
