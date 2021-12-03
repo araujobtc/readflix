@@ -10,11 +10,77 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* base */
+
 body{
     background-color: var(--preto);
+    color: rgb(255, 255, 255);
 }
 
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
-header div img{
+header .logo{
     max-height: 5rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*main movie*/
+
+.main-book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+    font-size: 16px;    
+    background-image: linear-gradient(to right, rgba(0,0,0,0.85),rgba(0,0,0,0.45)100%), url('/img/livro-principal.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.main-book .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.title{
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button-main-book{
+    background-color:rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    color: white;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button-main-book:hover{
+    background-color: white;
+    color: black;
+}
+
+.button-main-book i{
+    margin-right: 10px;
 }
