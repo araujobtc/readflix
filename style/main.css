@@ -84,3 +84,13 @@ header nav a:hover{
 .button-main-book i{
     margin-right: 10px;
 }
+
+main .container{
+    margin-left: 20px;
+}
+
+.box-book{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
