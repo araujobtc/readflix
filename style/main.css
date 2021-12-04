@@ -22,10 +22,12 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Trebuchet MS';
 }
 
 header .logo{
-    max-height: 5rem;
+    max-height: 2.2rem;
+    padding: 3px 0;
 }
 
 header nav a{
@@ -38,7 +40,7 @@ header nav a:hover{
     color: #fff;
 }
 
-/*main movie*/
+/*main book*/
 
 .main-book{
     display: flex;
@@ -48,8 +50,9 @@ header nav a:hover{
     height: 400px;
     font-size: 16px;    
     background-image: linear-gradient(to right, rgba(0,0,0,0.85),rgba(0,0,0,0.45)100%), url('/img/livro-principal.png');
-    background-position: center;
+    background-position: right;
     background-size: cover;
+    margin-bottom: 2px;
 }
 
 .main-book .description{
@@ -85,12 +88,12 @@ header nav a:hover{
     margin-right: 10px;
 }
 
-main .container{
+.container{
     margin-left: 20px;
 }
 
 .box-book{
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     display: block;
 }
