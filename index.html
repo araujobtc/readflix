@@ -11,7 +11,7 @@
     <!-- owl css -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="style/owl/gradient-owl-carousel.scss">
     <title>READFLIX</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
         <div class="container">
             <img src="img/readflix-logo.png" class="logo" alt="Logo READFLIX">
             <nav>
-                <a href="#">Início</a>
+                <a href="index.html">Início</a>
                 <a href="#">Gêneros</a>
                 <a href="#">Categorias</a>
             </nav>
@@ -33,7 +33,7 @@
                 <p class="description">August Pullman é um garoto de 10 anos que nasceu com uma deformidade no rosto. Depois de muito tempo sendo educado em casa, ele finalmente começa a frequentar uma escola regular. No quinto ano, ele precisa se esforçar para conseguir se encaixar em sua nova realidade.</p>
                 <div class="buttons">
                     <button role="button" class="button-main-book"><i class="fas fa-book-open"></i>LER AGORA</button>
-                    <button role="button" class="button-main-book"><i class="fas fa-info"></i>MAIS SOBRE</button>
+                    <a href="https://www.intrinseca.com.br/livro/282/" target="_blank"><button role="button" class="button-main-book" ><i class="fas fa-info"></i>MAIS SOBRE</button></a>
                 </div>
             </div>
             
@@ -42,16 +42,76 @@
 
     <div class="book-carousel">
         <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-book" src="img/mini1.png" alt="Here u Are"></div>
-            <div class="item"><img class="box-book" src="img/mini2.png" alt="Livro 1 - Conjurador - O Aprendiz"></div>
-            <div class="item"><img class="box-book" src="img/mini3.png" alt="Magnus Chase e os Deuses de Asgard"></div>
-            <div class="item"><img class="box-book" src="img/mini4.png" alt="Com Amor, Simon"></div>
-            <div class="item"><img class="box-book" src="img/mini5.png" alt="O Nome do Vento"></div>
-            <div class="item"><img class="box-book" src="img/mini6.png" alt="Inteligência Artificial"></div>
-            <div class="item"><img class="box-book" src="img/mini7.png" alt="Harry Potter e a Pedra Filosofal"></div>
-            <div class="item"><img class="box-book" src="img/mini8.png" alt="Vermelho, Branco e Sangue Azul"></div>
-            <div class="item"><img class="box-book" src="img/mini9.png" alt="A Culpa é das Estrelas"></div>
-            <div class="item"><img class="box-book" src="img/mini10.png" alt="Amor e Gelato"></div>
+            <div class="item">
+                <img class="box-book" src="img/mini1.png" alt="Here U Are" >
+                <div class="books">
+                    <h2 class="title-book">Here U Are</h2>
+                    <p class="info-book">BL, Drama, Romance</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini2.png" alt="Conjurador O Aprendiz" >
+                <div class="books">
+                    <h2 class="title-book">Conjurador - O Aprendiz</h2>
+                    <p class="info-book"> Ação, Aventura, Fantasia</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini3.png" alt="Magnus Chase e os Deuses de Asgard" >
+                <div class="books">
+                    <h2 class="title-book">Magnus Chase e os Deuses de Asgard</h2>
+                    <p class="info-book">Ação, Aventura, Fantasia, Mitologia</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini4.png" alt="Love Simon" >
+                <div class="books">
+                    <h2 class="title-book">Love, Simon</h2>
+                    <p class="info-book">Drama, LGBTQ+, Romance</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini5.png" alt="O Nome do Vento" >
+                <div class="books">
+                    <h2 class="title-book">O Nome do Vento</h2>
+                    <p class="info-book">Aventura, Fantasia, Romance</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini6.png" alt="Inteligência Artificial" >
+                <div class="books">
+                    <h2 class="title-book">Inteligência Artificial</h2>
+                    <p class="info-book">Computação, Informática, Mídias Sociais</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini7.png" alt="Harry Potter e a Pedra Filosofal" >
+                <div class="books">
+                    <h2 class="title-book">Harry Potter e a Pedra Filosofal</h2>
+                    <p class="info-book">Infantil, Fantasia, Romance</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini8.png" alt="Vermelho Branco e Sangue Azul" >
+                <div class="books">
+                    <h2 class="title-book">Vermelho, Branco e Sangue Azul</h2>
+                    <p class="info-book">LGBTQ+, Romance</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini9.png" alt="A Culpa é das Estrelas" >
+                <div class="books">
+                    <h2 class="title-book">A Culpa é das Estrelas</h2>
+                    <p class="info-book">Comédia, Drama, Romance</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="box-book" src="img/mini10.png" alt="Amor e Gelato" >
+                <div class="books">
+                    <h2 class="title-book">Amor e Gelato</h2>
+                    <p class="info-book">Romance</p>
+                </div>
+            </div>
         </div>
     </div>
 
